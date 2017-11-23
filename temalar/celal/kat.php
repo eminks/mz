@@ -19,7 +19,7 @@ $MakaleAl = $Makale->fetchAll(PDO::FETCH_ASSOC);
 foreach($MakaleAl as $MakaleBas){ ?>
 
 <div class="guncel">
-<a href="http://localhost/mz/ok.php?id=<?=$MakaleBas['id']?>">
+<a href="<?php echo $adres; ?>ok.php?id=<?=$MakaleBas['id']?>">
 <h3> <?=$MakaleBas["yazi_ad"]?> </h3></a>
 <p><img src="<?php echo $yazimg; ?>"/> <?php echo strip_tags(kisalt($MakaleBas["yazi"], 150)); ?>
 </p>

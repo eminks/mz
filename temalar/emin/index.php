@@ -42,7 +42,7 @@ $tarih1 = explode (' ',$MakaleBas['tarih']);
 
 ?>
 <div class="post-preview">
-                    <a href="http://localhost/mz/ok.php?id=<?=$MakaleBas['id']?>">
+                    <a href="<?php echo $adres; ?>ok.php?id=<?=$MakaleBas['id']?>">
                         <h2 class="post-title">
                             <?=$MakaleBas["yazi_ad"]?>
                         </h2></a>
@@ -59,7 +59,7 @@ $tarih1 = explode (' ',$MakaleBas['tarih']);
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-                        <a href="http://localhost/mz/index.php?sayfa=<?=$Sayfa + 1?>">Önceki yazılar &rarr;</a>
+                        <a href="<?php echo $adres; ?>index.php?sayfa=<?=$Sayfa + 1?>">Önceki yazılar &rarr;</a>
                     </li>
                 </ul>
             </div>

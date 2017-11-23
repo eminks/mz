@@ -54,10 +54,10 @@ $adres = $row['adres'];
     <title><?php echo $title; ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="http://localhost/mz/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $adres; ?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="http://localhost/mz/css/clean-blog.min.css" rel="stylesheet">
+    <link href="<?php echo $adres; ?>css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
