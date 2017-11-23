@@ -1,0 +1,121 @@
+﻿body{	
+	background: url(../resimler/arkaplan.jpg);
+	font-family: "Trebuchet Ms";
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #222;
+}
+#sayfa{
+	width:950px;	
+	margin: 0px auto;
+	border: 1px solid #333;
+}
+#menu{
+	background: url(../resimler/menu.png) repeat-x;
+	padding: 5px 5px 5px 15px ;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li{
+	float: left;
+}
+.temizle{
+	clear: both;
+}
+#menu ul li a{
+	display: block;
+	line-height: 30px;
+	border: 1px solid #fff;
+	background: #4b5d64;
+	color: #fff;
+	padding: 0px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#menu ul li a:hover{
+	color: #000;
+	border: 1px solid #000;
+	background: #ffff00;
+}
+#anasayfa{
+	background: #dee8ed;
+	padding: 5px;
+}
+#sol{
+	width: 200px;
+	float:left;
+}
+#yan{
+	width: 730px;
+	float: left;
+}
+#solmenu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#solmenu li a{
+	display: block;
+	background: url(../resimler/buton.png) no-repeat;
+	line-height:35px;
+	padding-left: 40px;
+	color: #ff6600;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+#solmenu li a:hover{
+	background: url(../resimler/butonsecili.png) no-repeat;
+	color: #000;
+}
+.guncel{
+	border: 1px solid #ccc;	
+	border-bottom:2px solid #333;
+	background: #faf9fb; 
+	padding: 5px;
+	margin: 0px 5px 5px 0px;
+	font-size: small;
+	word-wrap: break-word;
+
+}
+.guncel h3{
+	margin: 0px;
+}
+.guncel img{
+	float: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+#alt{
+	background: #555;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
